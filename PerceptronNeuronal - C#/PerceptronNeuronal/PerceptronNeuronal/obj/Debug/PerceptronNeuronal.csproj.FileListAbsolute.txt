@@ -1,0 +1,9 @@
+c:\users\wsulivan\documents\visual studio 2015\Projects\PerceptronNeuronal\PerceptronNeuronal\bin\Debug\PerceptronNeuronal.exe.config
+c:\users\wsulivan\documents\visual studio 2015\Projects\PerceptronNeuronal\PerceptronNeuronal\bin\Debug\PerceptronNeuronal.exe
+c:\users\wsulivan\documents\visual studio 2015\Projects\PerceptronNeuronal\PerceptronNeuronal\bin\Debug\PerceptronNeuronal.pdb
+c:\users\wsulivan\documents\visual studio 2015\Projects\PerceptronNeuronal\PerceptronNeuronal\obj\Debug\PerceptronNeuronal.csprojResolveAssemblyReference.cache
+c:\users\wsulivan\documents\visual studio 2015\Projects\PerceptronNeuronal\PerceptronNeuronal\obj\Debug\PerceptronNeuronal.Form_Perceptron.resources
+c:\users\wsulivan\documents\visual studio 2015\Projects\PerceptronNeuronal\PerceptronNeuronal\obj\Debug\PerceptronNeuronal.Properties.Resources.resources
+c:\users\wsulivan\documents\visual studio 2015\Projects\PerceptronNeuronal\PerceptronNeuronal\obj\Debug\PerceptronNeuronal.csproj.GenerateResource.Cache
+c:\users\wsulivan\documents\visual studio 2015\Projects\PerceptronNeuronal\PerceptronNeuronal\obj\Debug\PerceptronNeuronal.exe
+c:\users\wsulivan\documents\visual studio 2015\Projects\PerceptronNeuronal\PerceptronNeuronal\obj\Debug\PerceptronNeuronal.pdb

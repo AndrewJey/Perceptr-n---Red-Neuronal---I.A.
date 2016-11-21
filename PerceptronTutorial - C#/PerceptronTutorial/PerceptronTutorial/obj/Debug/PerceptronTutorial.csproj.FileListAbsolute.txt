@@ -1,0 +1,9 @@
+c:\users\joser\documents\visual studio 2015\Projects\PerceptronTutorial\PerceptronTutorial\bin\Debug\PerceptronTutorial.exe.config
+C:\Users\joser\documents\visual studio 2015\Projects\PerceptronTutorial\PerceptronTutorial\bin\Debug\PerceptronTutorial.exe
+C:\Users\joser\documents\visual studio 2015\Projects\PerceptronTutorial\PerceptronTutorial\bin\Debug\PerceptronTutorial.pdb
+C:\Users\joser\documents\visual studio 2015\Projects\PerceptronTutorial\PerceptronTutorial\obj\Debug\PerceptronTutorial.csprojResolveAssemblyReference.cache
+C:\Users\joser\documents\visual studio 2015\Projects\PerceptronTutorial\PerceptronTutorial\obj\Debug\PerceptronTutorial.Form1.resources
+C:\Users\joser\documents\visual studio 2015\Projects\PerceptronTutorial\PerceptronTutorial\obj\Debug\PerceptronTutorial.Properties.Resources.resources
+C:\Users\joser\documents\visual studio 2015\Projects\PerceptronTutorial\PerceptronTutorial\obj\Debug\PerceptronTutorial.csproj.GenerateResource.Cache
+C:\Users\joser\documents\visual studio 2015\Projects\PerceptronTutorial\PerceptronTutorial\obj\Debug\PerceptronTutorial.exe
+C:\Users\joser\documents\visual studio 2015\Projects\PerceptronTutorial\PerceptronTutorial\obj\Debug\PerceptronTutorial.pdb

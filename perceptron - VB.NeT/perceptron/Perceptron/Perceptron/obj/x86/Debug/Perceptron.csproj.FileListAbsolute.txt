@@ -1,0 +1,11 @@
+c:\users\paulo\documents\visual studio 2010\Projects\Perceptron\Perceptron\bin\Debug\Perceptron.exe
+c:\users\paulo\documents\visual studio 2010\Projects\Perceptron\Perceptron\bin\Debug\Perceptron.pdb
+c:\users\paulo\documents\visual studio 2010\Projects\Perceptron\Perceptron\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\paulo\documents\visual studio 2010\Projects\Perceptron\Perceptron\obj\x86\Debug\Perceptron.Form1.resources
+c:\users\paulo\documents\visual studio 2010\Projects\Perceptron\Perceptron\obj\x86\Debug\Perceptron.Properties.Resources.resources
+c:\users\paulo\documents\visual studio 2010\Projects\Perceptron\Perceptron\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\paulo\documents\visual studio 2010\Projects\Perceptron\Perceptron\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\paulo\documents\visual studio 2010\Projects\Perceptron\Perceptron\obj\x86\Debug\Perceptron.exe
+c:\users\paulo\documents\visual studio 2010\Projects\Perceptron\Perceptron\obj\x86\Debug\Perceptron.pdb
+C:\Users\WINDOWS 8.1\Desktop\perceptron\Perceptron\Perceptron\obj\x86\Debug\Perceptron.exe
+C:\Users\WINDOWS 8.1\Desktop\perceptron\Perceptron\Perceptron\obj\x86\Debug\Perceptron.pdb
