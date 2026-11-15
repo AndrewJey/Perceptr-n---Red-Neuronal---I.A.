@@ -32,24 +32,47 @@ Inventario y compilaciones locales del 2026-11-15. Una compilación correcta no 
 
 | Componente | Tipo / destino | Validación |
 | --- | --- | --- |
-| [Casi Pacman - JAVA/juegos/build.xml](<Casi Pacman - JAVA/juegos/build.xml>) | netbeans-ant / 1.8 | Compila; prueba funcional pendiente |
+| [Casi Pacman - JAVA/juegos/build.xml](<Casi Pacman - JAVA/juegos/build.xml>) | netbeans-ant / 1.8 | Compila; comprobado el 2026-11-15; ver alcance actualizado abajo |
 | [PerceptronNeuronal - C#/PerceptronNeuronal/PerceptronNeuronal.sln](<PerceptronNeuronal - C#/PerceptronNeuronal/PerceptronNeuronal.sln>) | solution | Sin ejecutar |
-| [PerceptronNeuronal - C#/PerceptronNeuronal/PerceptronNeuronal/PerceptronNeuronal.csproj](<PerceptronNeuronal - C#/PerceptronNeuronal/PerceptronNeuronal/PerceptronNeuronal.csproj>) | dotnet / v4.8.1 | Compila; prueba funcional pendiente |
-| [PerceptronSimple2 - JAVA/PerceptronSimple2/build.xml](<PerceptronSimple2 - JAVA/PerceptronSimple2/build.xml>) | netbeans-ant / 1.8 | Compila; prueba funcional pendiente |
+| [PerceptronNeuronal - C#/PerceptronNeuronal/PerceptronNeuronal/PerceptronNeuronal.csproj](<PerceptronNeuronal - C#/PerceptronNeuronal/PerceptronNeuronal/PerceptronNeuronal.csproj>) | dotnet / v4.8.1 | Compila; comprobado el 2026-11-15; ver alcance actualizado abajo |
+| [PerceptronSimple2 - JAVA/PerceptronSimple2/build.xml](<PerceptronSimple2 - JAVA/PerceptronSimple2/build.xml>) | netbeans-ant / 1.8 | Compila; comprobado el 2026-11-15; ver alcance actualizado abajo |
 | [PerceptronTutorial - C#/PerceptronTutorial/PerceptronTutorial.sln](<PerceptronTutorial - C#/PerceptronTutorial/PerceptronTutorial.sln>) | solution | Sin ejecutar |
-| [PerceptronTutorial - C#/PerceptronTutorial/PerceptronTutorial/PerceptronTutorial.csproj](<PerceptronTutorial - C#/PerceptronTutorial/PerceptronTutorial/PerceptronTutorial.csproj>) | dotnet / v4.8.1 | Compila; prueba funcional pendiente |
+| [PerceptronTutorial - C#/PerceptronTutorial/PerceptronTutorial/PerceptronTutorial.csproj](<PerceptronTutorial - C#/PerceptronTutorial/PerceptronTutorial/PerceptronTutorial.csproj>) | dotnet / v4.8.1 | Compila; comprobado el 2026-11-15; ver alcance actualizado abajo |
 | [Perceptrones - C#/Perceptron/Perceptron.sln](<Perceptrones - C#/Perceptron/Perceptron.sln>) | solution | Sin ejecutar |
-| [Perceptrones - C#/Perceptron/Perceptron/Perceptron.csproj](<Perceptrones - C#/Perceptron/Perceptron/Perceptron.csproj>) | dotnet / v4.8.1 | Compila; prueba funcional pendiente |
-| [Perceptrones - JAVA/Perceptron/build.xml](<Perceptrones - JAVA/Perceptron/build.xml>) | netbeans-ant / 1.8 | Compila; prueba funcional pendiente |
+| [Perceptrones - C#/Perceptron/Perceptron/Perceptron.csproj](<Perceptrones - C#/Perceptron/Perceptron/Perceptron.csproj>) | dotnet / v4.8.1 | Compila; comprobado el 2026-11-15; ver alcance actualizado abajo |
+| [Perceptrones - JAVA/Perceptron/build.xml](<Perceptrones - JAVA/Perceptron/build.xml>) | netbeans-ant / 1.8 | Compila; comprobado el 2026-11-15; ver alcance actualizado abajo |
 | [Perceptrones - JAVA/perceptron2/Perceptron/Perceptron.sln](<Perceptrones - JAVA/perceptron2/Perceptron/Perceptron.sln>) | solution | Sin ejecutar |
-| [Perceptrones - JAVA/perceptron2/Perceptron/Perceptron/Perceptron.csproj](<Perceptrones - JAVA/perceptron2/Perceptron/Perceptron/Perceptron.csproj>) | dotnet / v4.8.1 | Bloqueado: CS0234 |
-| [Perceptrones - JAVA/perceptron2/build.xml](<Perceptrones - JAVA/perceptron2/build.xml>) | netbeans-ant / 1.8 | Compila; prueba funcional pendiente |
+| [Perceptrones - JAVA/perceptron2/Perceptron/Perceptron/Perceptron.csproj](<Perceptrones - JAVA/perceptron2/Perceptron/Perceptron/Perceptron.csproj>) | dotnet / v4.8.1 | Compila; comprobado el 2026-11-15; ver alcance actualizado abajo |
+| [Perceptrones - JAVA/perceptron2/build.xml](<Perceptrones - JAVA/perceptron2/build.xml>) | netbeans-ant / 1.8 | Compila; comprobado el 2026-11-15; ver alcance actualizado abajo |
 | [Perceptrón - VB.NeT (con BD)/tuto 2 - Andrés Matta/Perceptron/Perceptron.sln](<Perceptrón - VB.NeT (con BD)/tuto 2 - Andrés Matta/Perceptron/Perceptron.sln>) | solution | Sin ejecutar |
-| [Perceptrón - VB.NeT (con BD)/tuto 2 - Andrés Matta/Perceptron/Perceptron/Perceptron.csproj](<Perceptrón - VB.NeT (con BD)/tuto 2 - Andrés Matta/Perceptron/Perceptron/Perceptron.csproj>) | dotnet / v4.8.1 | Bloqueado: CS0234 |
+| [Perceptrón - VB.NeT (con BD)/tuto 2 - Andrés Matta/Perceptron/Perceptron/Perceptron.csproj](<Perceptrón - VB.NeT (con BD)/tuto 2 - Andrés Matta/Perceptron/Perceptron/Perceptron.csproj>) | dotnet / v4.8.1 | Compila; comprobado el 2026-11-15; ver alcance actualizado abajo |
 | [perceptron - VB.NeT/perceptron/Perceptron/Perceptron.sln](<perceptron - VB.NeT/perceptron/Perceptron/Perceptron.sln>) | solution | Sin ejecutar |
-| [perceptron - VB.NeT/perceptron/Perceptron/Perceptron/Perceptron.csproj](<perceptron - VB.NeT/perceptron/Perceptron/Perceptron/Perceptron.csproj>) | dotnet / v4.8.1 | Bloqueado: CS0426 |
+| [perceptron - VB.NeT/perceptron/Perceptron/Perceptron/Perceptron.csproj](<perceptron - VB.NeT/perceptron/Perceptron/Perceptron/Perceptron.csproj>) | dotnet / v4.8.1 | Compila; comprobado el 2026-11-15; ver alcance actualizado abajo |
 
 ## Archivos ignorados
 
 `.gitignore` excluye credenciales locales, estado del editor y salidas de las herramientas detectadas. No deja de versionar archivos que ya estaban en Git. Los manifiestos, archivos de bloqueo, recursos fuente y scripts de esquema forman parte del código.
 <!-- local-development:end -->
+
+<!-- build-repairs-20261115:start -->
+## Reparación y comprobación — 2026-11-15
+
+- Se sustituyó PowerPacks por un lienzo WinForms que dibuja líneas y óvalos en el fondo del formulario. Conserva las posiciones del diagrama y permite utilizar etiquetas, tabla y botón de cálculo sin una ventana opaca superpuesta.
+
+Comprobado:
+
+- Compilan los seis proyectos .NET y los cuatro proyectos Java/Ant.
+- Se construyeron los seis formularios .NET. Las tres variantes modificadas se abrieron fuera de pantalla y se verificó su imagen con diagrama, etiquetas, tabla y botón visibles.
+
+Comandos:
+
+```powershell
+Abre la solución de la variante deseada en Visual Studio 2022 y compila.
+Para las variantes Java usa .\build-local.ps1.
+```
+
+Alcance pendiente:
+
+- No se validó el entrenamiento completo con la base de datos histórica de las variantes que dependen de ella.
+
+<!-- build-repairs-20261115:end -->

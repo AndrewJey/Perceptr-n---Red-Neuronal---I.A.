@@ -1,4 +1,4 @@
-﻿namespace Perceptron
+namespace Perceptron
 {
     partial class Form1
     {
@@ -48,17 +48,17 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Sd = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.So = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.lineShape9 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape8 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape7 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape6 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape5 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape4 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape3 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.ovalShape1 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.shapeContainer1 = new LegacyDiagrams.DiagramCanvas();
+            this.lineShape9 = new LegacyDiagrams.DiagramLine();
+            this.lineShape8 = new LegacyDiagrams.DiagramLine();
+            this.lineShape7 = new LegacyDiagrams.DiagramLine();
+            this.lineShape6 = new LegacyDiagrams.DiagramLine();
+            this.lineShape5 = new LegacyDiagrams.DiagramLine();
+            this.lineShape4 = new LegacyDiagrams.DiagramLine();
+            this.lineShape3 = new LegacyDiagrams.DiagramLine();
+            this.lineShape2 = new LegacyDiagrams.DiagramLine();
+            this.lineShape1 = new LegacyDiagrams.DiagramLine();
+            this.ovalShape1 = new LegacyDiagrams.DiagramOval();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -254,7 +254,7 @@
             this.shapeContainer1.Location = new System.Drawing.Point(0, 0);
             this.shapeContainer1.Margin = new System.Windows.Forms.Padding(0);
             this.shapeContainer1.Name = "shapeContainer1";
-            this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.shapeContainer1.Shapes.AddRange(new LegacyDiagrams.DiagramShape[] {
             this.lineShape9,
             this.lineShape8,
             this.lineShape7,
@@ -434,17 +434,17 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Sd;
         private System.Windows.Forms.DataGridViewTextBoxColumn So;
-        private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape9;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape8;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape7;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape6;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape5;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape4;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape3;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape2;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape1;
+        private LegacyDiagrams.DiagramCanvas shapeContainer1;
+        private LegacyDiagrams.DiagramLine lineShape9;
+        private LegacyDiagrams.DiagramLine lineShape8;
+        private LegacyDiagrams.DiagramLine lineShape7;
+        private LegacyDiagrams.DiagramLine lineShape6;
+        private LegacyDiagrams.DiagramLine lineShape5;
+        private LegacyDiagrams.DiagramLine lineShape4;
+        private LegacyDiagrams.DiagramLine lineShape3;
+        private LegacyDiagrams.DiagramLine lineShape2;
+        private LegacyDiagrams.DiagramLine lineShape1;
+        private LegacyDiagrams.DiagramOval ovalShape1;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
