@@ -10,7 +10,7 @@ Puedes abrir este repositorio en VS Code, Antigravity o Sublime Text. El compila
 En NetBeans 25, abre la carpeta que contiene `build.xml` como proyecto Ant. Selecciona un JDK igual o posterior al nivel de fuente del proyecto; las compilaciones de esta revisión usan JDK 24.0.2. El asistente busca NetBeans y el JDK y mantiene la configuración de usuario en `.local-build/`.
 
 ```powershell
-.uild-local.ps1
+.\build-local.ps1
 .\build-local.ps1 -Project 'Casi Pacman - JAVA/juegos/build.xml' -Target run
 ```
 
@@ -76,3 +76,11 @@ Alcance pendiente:
 - No se validó el entrenamiento completo con la base de datos histórica de las variantes que dependen de ella.
 
 <!-- build-repairs-20261115:end -->
+
+<!-- improvements-20261119:start -->
+## Mejoras y verificación — 2026-11-19 (Entrenamiento acotado de Perceptrón y respaldo local sin SQL Server)
+
+- Corregido el bucle potencialmente infinito `while (error())` y los `MessageBox.Show` bloqueantes en cada época mediante `PerceptronTrainer` con límite `MaxEpochs` y reporte de convergencia.
+- Reemplazada la cadena placeholder en `Conexion.cs` por `PERCEPTRON_CONNECTION_STRING` con respaldo automático a un dataset local de display de 7 segmentos (dígitos 0–9).
+- Validación: compilación MSBuild de los 6 `.csproj` y pruebas de convergencia (7 segmentos) y corte limpio por `maxEpochs` en XOR no separable.
+<!-- improvements-20261119:end -->

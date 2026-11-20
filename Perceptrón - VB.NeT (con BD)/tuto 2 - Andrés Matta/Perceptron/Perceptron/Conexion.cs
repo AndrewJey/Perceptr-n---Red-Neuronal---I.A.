@@ -1,43 +1,78 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Data.SqlClient;
 
 namespace Perceptron
 {
-    class Conexion
+    public class Conexion
     {
-        private SqlConnection con = new SqlConnection("Data Source=.\\NOMBRE DE LA CONEXION SQLSERVER; Database=NOMBRE DE LA BASE DE DATOS; Integrated Security=SSPI");// no modificar el Integrated Security=SSPI
-        private List<Entradas> entradas = new List<Entradas>();
-        //private 
-        
+        public bool UsandoDatosLocales { get; private set; }
+
+        public static string GetConnectionString()
+        {
+            string env = Environment.GetEnvironmentVariable("PERCEPTRON_CONNECTION_STRING");
+            return string.IsNullOrWhiteSpace(env) ? null : env.Trim();
+        }
+
+        public static List<Entradas> CrearDatosLocales()
+        {
+            // Display 7 segmentos (a,b,c,d,e,f,g) para dígitos 0..9;
+            // Sd=1 para dígitos que usan el segmento central 'g' (2,3,4,5,6,8,9), linealmente separable.
+            return new List<Entradas>
+            {
+                new Entradas(0, new[] { 1, 1, 1, 1, 1, 1, 0 }, 1, 0),
+                new Entradas(1, new[] { 0, 1, 1, 0, 0, 0, 0 }, 1, 0),
+                new Entradas(2, new[] { 1, 1, 0, 1, 1, 0, 1 }, 1, 1),
+                new Entradas(3, new[] { 1, 1, 1, 1, 0, 0, 1 }, 1, 1),
+                new Entradas(4, new[] { 0, 1, 1, 0, 0, 1, 1 }, 1, 1),
+                new Entradas(5, new[] { 1, 0, 1, 1, 0, 1, 1 }, 1, 1),
+                new Entradas(6, new[] { 1, 0, 1, 1, 1, 1, 1 }, 1, 1),
+                new Entradas(7, new[] { 1, 1, 1, 0, 0, 0, 0 }, 1, 0),
+                new Entradas(8, new[] { 1, 1, 1, 1, 1, 1, 1 }, 1, 1),
+                new Entradas(9, new[] { 1, 1, 1, 1, 0, 1, 1 }, 1, 1),
+            };
+        }
 
         public List<Entradas> cargarTabla()
         {
-            con.Open();
-            SqlCommand comando = new SqlCommand("select digito, x1, x2, x3, x4, x5, x6, x7, bias, Sd from perceptron", con);
-            SqlDataReader dr = comando.ExecuteReader();
-            
-
-            if (dr.HasRows)
+            string connStr = GetConnectionString();
+            if (!string.IsNullOrEmpty(connStr))
             {
-                while (dr.Read())
+                try
                 {
-                    int[] x = new int[7];
-                    x[0]= dr.GetInt32(1);
-                    x[1]= dr.GetInt32(2);
-                    x[2]= dr.GetInt32(3);
-                    x[3]= dr.GetInt32(4);
-                    x[4]= dr.GetInt32(5);
-                    x[5]= dr.GetInt32(6);
-                    x[6]= dr.GetInt32(7);
-                    Entradas obj = new Entradas(dr.GetInt32(0), x, dr.GetInt32(8), dr.GetInt32(9));
-                    entradas.Add(obj);
+                    var fromDb = new List<Entradas>();
+                    using (SqlConnection con = new SqlConnection(connStr))
+                    using (SqlCommand comando = new SqlCommand("select digito, x1, x2, x3, x4, x5, x6, x7, bias, Sd from perceptron", con))
+                    {
+                        con.Open();
+                        using (SqlDataReader dr = comando.ExecuteReader())
+                        {
+                            while (dr.Read())
+                            {
+                                int[] x = new int[7];
+                                for (int k = 0; k < 7; k++)
+                                {
+                                    x[k] = dr.GetInt32(k + 1);
+                                }
+                                fromDb.Add(new Entradas(dr.GetInt32(0), x, dr.GetInt32(8), dr.GetInt32(9)));
+                            }
+                        }
+                    }
+
+                    if (fromDb.Count > 0)
+                    {
+                        UsandoDatosLocales = false;
+                        return fromDb;
+                    }
+                }
+                catch
+                {
+                    // Continúa con el conjunto local si SQL Server no está disponible.
                 }
             }
-            con.Close();
-            return entradas;
-        }  //carga la tabla de la base de datos.
+
+            UsandoDatosLocales = true;
+            return CrearDatosLocales();
+        }
     }
 }
